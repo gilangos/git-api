@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <form class="form" action="#">
+            <h1>Busque por um usuário:</h1>
+            <p>conheça seus melhores repositórios</p>
+            <div class="search-wrapper">
+                <input type="text" id="search-input">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+
+        <p class="error-message">usuário não encontrado!</p>
+
+        <main class="user-information hidden">
+            <div class="user-img">
+                <img src="" alt="user avatar">
+            </div>
+            <h2 class="user-name">user-name</h2>
+            <div class="user-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="user-city">floripa, brazil</span>
+            </div>
+            <div class="user-footer">
+                <div class="user-followers">
+                    <h3>seguidores:</h3>
+                    <span id="followers">6767</span>
+                </div>
+                <div class="user-followers">
+                    <h3>seguindo:</h3>
+                    <span id="following">67676</span>
+                </div>
+            </div>
+            <a id="link" href="">Ver projetos</a>
+        </main>
+    </div>
+</body>
+</html>
